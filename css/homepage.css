@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
     background: #cecece
 }
@@ -36,7 +35,9 @@ header {
     color: #fff
 }
 
-
+.custom-toggler.navbar-toggler {
+    border-color: rgb(51, 155, 173);
+}
 
 .navbar-brand {
     font-family: 'Allerta Stencil', sans-serif;
@@ -46,7 +47,7 @@ header {
 
 .nav-link {
     padding: 25px 5px;
-    transition: 0.2s
+    transition: 0.2s;
 }
 
 .navbar-brand:hover {
@@ -166,4 +167,7 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}iframe{
+    width: 300px;
+    height: 200px;
 }
