@@ -14,6 +14,20 @@ header {
     height: 100vh
 }
 
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fec400;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
 .navbar-transparent {
     background: transparent
 }
@@ -22,18 +36,17 @@ header {
     color: #fff
 }
 
-.navbar-nav>li:hover {
-    border-bottom: 1px solid #fff
-}
 
-.navbar-nav>.active {
-    border-bottom: 1px solid #fff
-}
 
 .navbar-brand {
     font-family: 'Allerta Stencil', sans-serif;
     color: #ece9ec;
     font-size: 45px;
+}
+
+.nav-link {
+    padding: 25px 5px;
+    transition: 0.2s
 }
 
 .navbar-brand:hover {
@@ -59,8 +72,8 @@ header {
 .right-side h1 {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 2.4em;
-    text-align: center
-
+    text-align: center;
+    color: #ffffff;
 }
 
 .right-side p {
@@ -92,7 +105,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #81198f !important;
+    background: #623A7E !important;
 }
 #footer h5{
 	padding-left: 10px;
