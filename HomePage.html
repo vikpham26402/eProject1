@@ -12,6 +12,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Jquery -->
         <script src="js/jquery.min.js"></script>
+        <script>
+            $(window).on('load', function(event) {
+            $('body').removeClass('preloading');
+            $('.load').delay(1000).fadeOut('slow');
+            });
+        </script>
         <!-- bootstrap  -->
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -30,7 +36,7 @@
         </style>
     </head>
     <body class="preloading">
-        <div class="loader">
+        <div class="load">
             <svg viewBox="0 0 74 14">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="Artboard" transform="translate(-9.000000, -7.000000)">
