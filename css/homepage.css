@@ -19,8 +19,7 @@ body {
     overflow: hidden;
 }
 .load img{
-    width: 286px;
-    height: 232px;
+    width: 300px;
     position: absolute;
     top: 40%;
     left: 40%;
@@ -73,13 +72,16 @@ header {
     transition: 0.2s;
 }
 .dropdown-item{
+    background-color: #280e3b;
     padding: 10px 10px;
 }
 .navbar-brand:hover {
     
+    
 }
 .navbar .dropdown:hover .dropdown-menu,
 .navbar .dropdown .dropdown-menu:hover {
+    background-color: #280e3b;
     display: block !important
 }
 .shape {
@@ -110,7 +112,7 @@ header {
 .btn.order-button {
     background: transparent;
     border: 2px solid #752975;
-    color: #83ff00;
+    color: #fec400;
     border-radius: 30%;
     transition: 0.7s
 }
