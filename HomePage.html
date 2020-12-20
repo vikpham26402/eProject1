@@ -10,6 +10,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/logo.ico">
         <!-- Jquery -->
         <script src="js/jquery.min.js"></script>
         <script>
@@ -31,7 +32,7 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <!-- Loading-->
         <link rel="stylesheet" href="css/loading.css">
-        <script type="text/javascript" src=""></script>
+        <script type="text/javascript" src="js/Page.js"></script>
         <link rel="stylesheet" href="css/homepage.css">
         <style>
             
@@ -43,62 +44,71 @@
         </div>
         <div class="container-fluid px-0">
             <header>
-                <div class="shape"></div> <!-- Navbar -->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> <a class="navbar-brand" href="#"><img src="img/100x100px.png"></a> 
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="">   
-                        <i class="fas fa-chevron-circle-down" style="color:rgb(30, 105, 202); font-size:28px;"></i>
-                    </span>
-                </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/puma.png">
-                                    PUMA
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">Men</a>
-                                  <a class="dropdown-item" href="#">Women</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/nike.png">
-                                    NIKE
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">Men</a>
-                                  <a class="dropdown-item" href="#">Women</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/adidas.png">
-                                    ADIDAS
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">Men</a>
-                                  <a class="dropdown-item" href="#">Women</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="shape"></div> 
+                <!-- Navbar -->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
+                    <a class="navbar-brand" href="HomePage.html"><img src="img/100x100px.png"></a> 
+                    <button class="navbar-toggler custom-toggler" type="button"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse p-4 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row mobileMenu" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto align-self-stretch">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/puma.png">
+                                        PUMA
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/adidas.png">
+                                        ADIDAS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>   
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/nike.png">
+                                        NIKE
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>                       
+                            </ul>
+                        </div>
+                    </nav>
+                <!-- ./ end of navbar -->
+                <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            
+                        </div>
                     </div>
-                </nav> <!-- ./ end of navbar -->
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 left-side"> <img style="mix-blend-mode:screen; margin-top: 200px; margin-left: 0px; width: auto;" src="img/purple air.png" class="w-100"> </div>
                         <div class="col-md-6 right-side">
-                            <h1 style="font-size:3vw" class="animate__animated animate__backInRight">SPORTS SHOES</h1>
-                            <p style="font-size:1vw" class="animate__animated animate__bounceInUp animate__delay-1s">FREE DELIVERY</p>
+                            <h1 style="font-size:35px" class="animate__animated animate__backInRight">SPORTS SHOES</h1>
+                            <p style="font-size:25px" class="animate__animated animate__bounceInUp animate__delay-1s">FREE DELIVERY</p>
                             <div class="text-center"> 
-                            <button style="font-size:1vw" class="animate__animated animate__fadeIn animate__delay-2s btn order-button">ORDER NOW</button> 
+                            <button style="font-size:15px" class="animate__animated animate__fadeIn animate__delay-2s btn order-button">ORDER NOW</button> 
                             </div>
                         </div>
                     </div>
