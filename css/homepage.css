@@ -260,7 +260,7 @@ section .section-title {
   }
 }
 #exampleSlider .MS-content {
-  margin: 0px 5%;
+  margin: 0px 0px;
   overflow: hidden;
   white-space: nowrap; /*Văn bản tự sẽ không xuống dòng*/
   border: 1px solid red;
@@ -295,7 +295,6 @@ section .section-title {
     width: 50%;
   }
 }
-
 #exampleSlider .MS-controls button {
   position: absolute;
   border: none;
@@ -330,3 +329,6 @@ section .section-title {
   }
 }
                                         /*end MultiSlide*/
+/*Nike*/
+
+/*END Nike*/
