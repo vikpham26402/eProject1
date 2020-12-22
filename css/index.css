@@ -1,0 +1,118 @@
+.left-side,
+.right-side {
+    height: 100vh
+}
+.shape {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #b832b8, #dfc6c4 70%);
+    position: absolute;
+    -webkit-clip-path: ellipse(500px 500px at 10% 5%)
+}
+.right-side {
+    padding-top: 150px
+}
+
+.right-side h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.right-side p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold
+}
+.btn.order-button {
+    background: transparent;
+    border: 2px solid #752975;
+    color: #fec400;
+    border-radius: 30%;
+    transition: 0.7s
+}
+
+.btn.order-button:hover {
+    border: 2px solid #ce0000;
+    color: #ce0000
+}
+/*MultiSlide*/
+#exampleSlider {
+    position: relative;
+    border: 1px solid black;
+  }
+  @media (max-width: 767px) {
+    #exampleSlider {
+      border-color: transparent;
+    }
+  }
+  #exampleSlider .MS-content {
+    margin: 0px 0px;
+    overflow: hidden;
+    white-space: nowrap; /*Văn bản tự sẽ không xuống dòng*/
+    border: 1px solid red;
+  }
+  @media (max-width: 767px) {
+    #exampleSlider .MS-content {
+      margin: 0;
+    }
+  }
+  #exampleSlider .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid green;
+    border-right: none;
+    width: 20%;
+  }
+  @media (max-width: 1200px) {
+    #exampleSlider .MS-content .item {
+      width: 25%;
+    }
+  }
+  @media (max-width: 992px) {
+    #exampleSlider .MS-content .item {
+      width: 33.3333%;
+    }
+  }
+  @media (max-width: 767px) {
+    #exampleSlider .MS-content .item {
+      width: 50%;
+    }
+  }
+  #exampleSlider .MS-controls button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    outline: 0;
+    top: 35px;
+  }
+  @media (max-width: 767px) {
+    #exampleSlider .MS-controls button {
+      display: none;
+    }
+  }
+  #exampleSlider .MS-controls button:hover {
+    cursor: pointer;
+  }
+  #exampleSlider .MS-controls .MS-left {
+    left: 10px;
+    top: 50%;
+  }
+  @media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-left {
+      left: -2px;
+    }
+  }
+  #exampleSlider .MS-controls .MS-right {
+    right: 10px;
+    top: 50%;
+  }
+  @media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-right {
+      right: -2px;
+    }
+  }

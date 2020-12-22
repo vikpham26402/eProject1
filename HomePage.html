@@ -13,12 +13,6 @@
         <link rel="shortcut icon" href="img/logo.ico">
         <!-- Jquery -->
         <script src="js/jquery.min.js"></script>
-        <script>
-            $(window).on('load', function(event) {
-            $('body').removeClass('preloading');
-            $('.load').delay(1000).fadeOut('2000');
-            });
-        </script>
         <!-- bootstrap  -->
         <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -30,13 +24,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <!-- Animate -->
         <link rel="stylesheet" href="css/animate.min.css">
-        <!-- Loading-->
-        <link rel="stylesheet" href="css/loading.css">
-        <script type="text/javascript" src="js/Page.js"></script>
-        <link rel="stylesheet" href="css/homepage.css">
-        <style>
-            
-        </style>
+        <!-- index -->
+        <link rel="stylesheet" href="css/index.css">
+        <!-- Pre-load -->
+        <link rel="stylesheet" href="css/Preload.css">
+        <!-- Header -->
+        <link rel="stylesheet" href="css/Header.css">
+        <!-- Navigation -->
+        <link rel="stylesheet" href="css/Nav.css">
+        <!-- Footer -->
+        <link rel="stylesheet" href="css/Footer.css">
+        <link rel="stylesheet" href="css/HomePage.css">
+        <script src="js/Page.js"></script>
+        <script>
+            $(window).on('load', function(event) {
+            $('body').removeClass('preloading');
+            $('.load').delay(1000).fadeOut('2000');
+            });
+        </script>
     </head>
     <body class="preloading">
         <div class="load">
@@ -46,7 +51,7 @@
             <header>
                 <div class="shape"></div> 
                 <!-- Navbar -->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
+                <nav class=" navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
                     <a class="navbar-brand" href="HomePage.html"><img width="100px" src="img/2.png"></a> 
                     <button class="navbar-toggler custom-toggler" type="button"> 
                         <span class="navbar-toggler-icon"></span>
@@ -250,7 +255,6 @@
                         </div>
                     </div>
                 </div>
-                <script src="js/jquery-2.2.4.min.js"></script>
                 <script src="js/multislider.min.js"></script>
                 <script>
                     $('#exampleSlider').multislider({
@@ -259,18 +263,17 @@
                         duration: 2000
                     });
                 </script>
-</div>
+            </div>
 <!-- END SECOND CONTENT -->
 <!-- THIRD CONTENT  -->
-<div class="row" style="background-color: red;">
-    <div style="height: 100px; background-color:chartreuse" class="col-6">
-    </div>
-    <div style="height: 100px; background-color: aqua;" class="col-6">
-
-    </div>
-</div>
+            <div class="row" style="background-color: red;">
+                <div style="height: 100px; background-color:chartreuse" class="col-6">
+                </div>
+                <div style="height: 100px; background-color: aqua;" class="col-6">
+                </div>
+            </div>
 <!-- END THIRD CONTENT-->
-        </div>
+        </div>  
     </div> <!--End Main -->
             <!-- Footer -->
             <div>
@@ -282,17 +285,7 @@
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Quick links</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Home</a></li>
 						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>About</a></li>
 						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>FAQ</a></li>
 						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Get Started</a></li>
@@ -300,14 +293,11 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
-					</ul>
+					<!-- Type something here -->
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Adress</h5>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9249735021463!2d108.22038801451369!3d16.069382643702976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d5d51043%3A0x596a384ad09764ee!2zVMOyYSBOaMOgIFZOUFQgxJDDoCBO4bq1bmcsIDM4IFnDqm4gQsOhaSwgSOG6o2kgQ2jDonUgMSwgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1608641743842!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 			</div>
 			<div class="row">

@@ -16,3 +16,11 @@ $(document).ready(function() {
       $('.mobileMenu, .overlay').toggleClass('open');
     });
   });
+$(window).on('scroll',function(){
+  if ($(window).scrollTop()){
+    $('.navbar-transparent').addClass('color');
+  }
+  else {
+    $('.navbar-transparent').removeClass('color');
+  }
+  })

@@ -38,15 +38,17 @@ body {
     border-bottom: 1px solid #eee
 }
 
-.type {
-    background-color: #fff
+.cart {
+    background-color: #fff;
+    margin-top: 10rem;
 }
 
 .product {
     padding: 10px;
     background-color: #fff;
     border-radius: 5px;
-    position: relative
+    position: relative;
+    margin-bottom:20px;
 }
 
 .about span {
