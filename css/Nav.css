@@ -1,0 +1,104 @@
+/*Navigation*/
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fec400;
+    transition: 0.4s
+}
+.nav-item:hover::after {
+    width: 100%
+}
+.navbar-transparent {
+    background: transparent;
+}
+.navbar-nav>li>a {
+    color: rgb(139, 63, 63)
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(51, 155, 173);
+}
+.navbar-brand {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #ece9ec;
+    font-size: 45px;
+}
+.nav-link {
+    margin-top: 5px;
+}
+.dropdown-item{
+    background-color: #9fc44b;
+    padding: 10px 10px;
+}
+/* toggler-menu */
+.color{
+  background-color: rgb(0, 0, 0);
+  margin-bottom:20px 80px ;
+  height: 70px;
+  transition: 1s;
+}
+@media (max-width: 992px) {
+  .navbar{
+      position: relative;
+  }
+  .navbar-dark .navbar-brand{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      margin-top: 25px;
+  }
+  .custom-toggler.navbar-toggler{
+      position: absolute;
+      margin-top: 45px;
+      right: 25px;
+  }
+
+  .mobileMenu {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    -webkit-transition: all ease 0.25s;
+    -moz-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+  }
+  .mobileMenu.open {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .mobileMenu .navbar-nav {
+    overflow-y: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 1029;
+  }
+  .navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+    background-color: #7627af;
+    display: block !important
+}
+}
+
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+    background-color: #8b4cb8;
+    display: block !important
+}
+/* End Navigation */
