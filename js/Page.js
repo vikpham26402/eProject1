@@ -23,14 +23,5 @@ $(window).on('scroll',function(){
   else {
     $('.navbar-transparent').removeClass('color');
   }
-  });
-function filterItems() {
-  let i,Shoes,Pants,Shirt;
-  Shoes=document.getElementsByClassName("Shoes")
-  Pants=document.getElementsByClassName("Pants")
-  Shirt=document.getElementsByClassName("Shirt")
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-  }
-}
+});
+ 

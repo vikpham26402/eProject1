@@ -96,139 +96,129 @@
             </header>
             <!-- Main -->
             <!-- Goods -->
-            <div class="container-fluid mt-5 mb-5">
-                <div class="row g-2">
+            <div class="container-fluid mt-5 p-2" style="height: 90rem;">
+                <div class="row">
                     <div class="col-md-3">
-                        <div class="processor p-2">
-                            <div class="heading d-flex justify-content-between align-items-center">
-                                <h6 class="text-uppercase">Clothes</h6> <span>--</span>
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Shirt')" id="flexCheckDefault"> <label class="form-check-label" for="flexCheckDefault"> Shirt </label> </div> 
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Pants')" id="flexCheckDefault" > <label class="form-check-label" for="flexCheckDefault"> Pants </label> </div> 
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Shoes')" id="flexCheckDefault" > <label class="form-check-label" for="flexCheckDefault"> Shoes </label> </div> 
-                            </div>                       
-                        </div>
-                        <div class="brand p-2">
-                            <div class="heading d-flex justify-content-between align-items-center">
-                                <h6 class="text-uppercase">Sex</h6> <span>--</span>
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Men')" id="flexCheckDefault"> <label class="form-check-label" for="flexCheckDefault"> Men </label> </div> 
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Women')" id="flexCheckDefault" > <label class="form-check-label" for="flexCheckDefault"> Women </label> </div> 
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <div class="form-check"> <input class="form-check-input" type="checkbox" onclick="filterSelection('Kid')" id="flexCheckDefault" > <label class="form-check-label" for="flexCheckDefault"> Kid </label> </div> 
-                            </div>
-                        </div>
+                        <ul class="filterSection">
+                                <p>Clothes</p>
+                            <li>
+                                <input checked="true" type="checkbox" value="Shoes"/>
+                                <label>Shoes</label>
+                            </li>
+                            <li>
+                                <input checked="true" type="checkbox" value="Pants"/>
+                                <label>Pants</label>
+                            </li>
+                            <li>
+                                <input checked="true" type="checkbox" value="Shirt"/>
+                                <label>Shirt</label>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-9">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p1.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shoes">
-                                        <h5>Suede Classic+ Sneakers</h5> <span>$1,999.99</span>
+                        <div class="col-md-9">
+                            <ul id="itemsToFilter d-flex">
+                                <div class="row product">
+                                    <div class="col-md-4">
+                                        <li data-type="Shoes">
+                                            <img src="img/puma/Porsche-Design-Crossbody-Bag.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
                                     </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Pants">
+                                            <img src="img/puma/PUMA-x-CLOUD9-Beanie.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shoes">
+                                            <img src="img/puma/short.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Pants">
+                                            <img src="img/puma/Speedcat-OG-Sparco-Motorsport-Shoes.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shirt">
+                                            <img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shirt">
+                                            <img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shirt">
+                                            <img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shirt">
+                                            <img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li data-type="Shirt">
+                                            <img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg">
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span><span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4"> 
-                                    <div class="text-center"> <img src="img/multislide/p2.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shoes">
-                                        <h5>Clyde All-Pro Basketball Shoes </h5> <span>$123.43</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p3.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shoes">
-                                        <h5>Clyde All-Pro Basketball Shoes</h5> <span>$1,999.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p4.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Pants">
-                                        <h5>Speedcat OG Sparco Women's Sneakers</h5> <span>$1,245.89</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p5.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Pants">
-                                        <h5>RS-Fast Royal Flame Women's Sneakers</h5> <span>$2,999.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p6.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Pants">
-                                        <h5>Clyde AOP Sneakers</h5> <span>$999.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p7.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shirt">
-                                        <h5>1 of 1 Melo Men's Hoodie</h5> <span>$3,999.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p8.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shirt">
-                                        <h5>PUMA x HELLY HANSEN Men's Hoodie</h5> <span>$99.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="product py-4">
-                                    <div class="text-center"> <img src="img/multislide/p9.jpg" width="200"> </div>
-                                    <div class="about text-center filterItem Shirt">
-                                        <h5>Untamed Women's Low Impact Training Bra</h5> <span>$1,999.99</span>
-                                    </div>
-                                    <div class="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button class="btn btn-primary text-uppercase">Add to cart</button>
-                                        <div class="add"> <span class="product_fav"><i class="fas fa-heart"></i></span> <span class="product_fav"><i class="fas fa-cart-plus"></i></span> </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -279,6 +269,77 @@
             </section>
 	<!-- ./Footer -->
         </div>
-        <script src="" async defer></script>
     </body>
+    <script>
+        // get all of our list items
+ var itemsToFilter = document.querySelectorAll(".product li");
+  
+  //setup click event handlers on our checkboxes
+  var checkBoxes = document.querySelectorAll(".filterSection li input");
+    
+  for (var i = 0; i < checkBoxes.length; i++) {
+      checkBoxes[i].addEventListener("click", filterItems, false);
+      checkBoxes[i].checked = true;
+  }
+    
+  // the event handler!
+  function filterItems(e) {
+      var clickedItem = e.target;
+        
+      if (clickedItem.checked == true) {
+          hideOrShowItems(clickedItem.value, "hideItem", "showItem");
+      } else if (clickedItem.checked == false) {
+          hideOrShowItems(clickedItem.value, "showItem", "hideItem");
+      } else {
+          // deal with the indeterminate state if needed
+      }
+  }
+    
+  // add or remove classes to show or hide our content
+  function hideOrShowItems(itemType, classToRemove, classToAdd) {
+      for (var i = 0; i < itemsToFilter.length; i++) {
+          var currentItem = itemsToFilter[i];
+            
+          if (currentItem.getAttribute("data-type") == itemType) {
+              removeClass(currentItem, classToRemove);
+              addClass(currentItem, classToAdd);
+          }
+      }
+  }
+    
+  //
+  // Helper functions for adding and removing class values
+  //
+  function addClass(element, classToAdd) {
+      var currentClassValue = element.className;
+          
+      if (currentClassValue.indexOf(classToAdd) == -1) {
+          if ((currentClassValue == null) || (currentClassValue === "")) {
+              element.className = classToAdd;
+          } else {
+              element.className += " " + classToAdd;
+          }
+      }
+  }
+          
+  function removeClass(element, classToRemove) {
+      var currentClassValue = element.className;
+    
+      if (currentClassValue == classToRemove) {
+          element.className = "";
+          return;
+      }
+    
+      var classValues = currentClassValue.split(" ");
+      var filteredList = [];
+    
+      for (var i = 0 ; i < classValues.length; i++) {
+          if (classToRemove != classValues[i]) {
+              filteredList.push(classValues[i]);
+          }
+      }
+    
+      element.className = filteredList.join(" ");
+  }
+    </script>
 </html>
