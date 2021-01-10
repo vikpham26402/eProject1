@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/logo.ico">
+        <!-- Jquery -->
+        <script src="js/jquery.min.js"></script>
+        </script>
+        <!-- bootstrap  -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- popper -->
+        <script src="js/popper.min.js"></script>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate.min.css">
+        <!-- Navigation -->
+        <link rel="stylesheet" href="css/Nav.css">
+        <!-- Footer -->
+        <link rel="stylesheet" href="css/Footer.css">
+        <script type="text/javascript" src="js/Page.js"></script>
+        <link rel="stylesheet" href="css/nike.css">
+    </head>
+    <body>
+        <div class="container-fluid px-0">
+            <header>
+                <div class="logo" style="height: 50px;">
+                    <a href="HomePage.html"><img src="img/Nike-Logo.png"></a>
+                </div>
+                <!-- Navbar -->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
+                    <a class="navbar-brand" href="HomePage.html"><img width="100px" src="img/2.png"></a> 
+                    <button class="navbar-toggler custom-toggler" type="button"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row mobileMenu" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto align-self-stretch">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/puma.png">
+                                        PUMA
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/adidas.png">
+                                        ADIDAS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>   
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="img/nike.png">
+                                        NIKE
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Men</a>
+                                      <a class="dropdown-item" href="#">Women</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>                       
+                            </ul>
+                        </div>
+                    </nav>
+                <!-- ./ end of navbar -->
+                <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Main -->
+            <!-- Goods -->
+            <div class="container-fluid mt-5 p-2">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="filterSection">
+                                <p>Clothes</p>
+                            <li>
+                                <input checked="true" type="checkbox" value="Shoes"/>
+                                <label>Shoes</label>
+                            </li>
+                            <li>
+                                <input checked="true" type="checkbox" value="Pants"/>
+                                <label>Pants</label>
+                            </li>
+                            <li>
+                                <input checked="true" type="checkbox" value="Shirt"/>
+                                <label>Shirt</label>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="col-md-9">
+                            <ul id="itemsToFilter d-flex">
+                                <div class="row product ">
+                                    <div class="productInline">
+                                        <li data-type="Shoes">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/Porsche-Design-Crossbody-Bag.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Pants">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/PUMA-x-CLOUD9-Beanie.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shoes">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/short.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Pants">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/Speedcat-OG-Sparco-Motorsport-Shoes.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shirt">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shirt">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shirt">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shirt">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                    <div class="productInline">
+                                        <li data-type="Shirt">
+                                            <a target="blank" href="/link-san-pham"><img src="img/puma/sportswear-t-shirt-Jn5HzC.jpg"></a>
+                                            <p>Item</p>
+                                            <h5>&pound;199</h5>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="compare">Compare</h6>
+                                                <div class="d-flex align-items-center add"><span class="fas fa-cart-plus"></span>&nbsp;<span class="fas fa-heart"></span></div>
+                                            </div>
+                                        </li> 
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Main -->
+            <!-- Footer -->
+            <section id="footer">
+                <div class="container">
+                    <div class="row text-center text-xs-center text-sm-left text-md-left">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5>Quick links</h5>
+                            <ul class="list-unstyled quick-links">
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <!-- Type something here -->
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5>Address</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9249735021463!2d108.22038801451369!3d16.069382643702976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d5d51043%3A0x596a384ad09764ee!2zVMOyYSBOaMOgIFZOUFQgxJDDoCBO4bq1bmcsIDM4IFnDqm4gQsOhaSwgSOG6o2kgQ2jDonUgMSwgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1608641743842!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                            <ul class="list-unstyled list-inline social text-center">
+                                <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-google-plus"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                    </div>	
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                            <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+                            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+                        </div>
+                        <hr>
+                    </div>	
+                </div>
+            </section>
+	<!-- ./Footer -->
+        </div>
+    </body>
+    <script>
+        // get all of our list items
+        var itemsToFilter = document.querySelectorAll(".product li");
+        
+        //setup click event handlers on our checkboxes
+        var checkBoxes = document.querySelectorAll(".filterSection li input");
+            
+        for (var i = 0; i < checkBoxes.length; i++) {
+            checkBoxes[i].addEventListener("click", filterItems, false);
+            checkBoxes[i].checked = true;
+        }
+            
+        // the event handler!
+        function filterItems(e) {
+            var clickedItem = e.target;
+                
+            if (clickedItem.checked == true) {
+                hideOrShowItems(clickedItem.value, "hideItem", "showItem");
+            } else if (clickedItem.checked == false) {
+                hideOrShowItems(clickedItem.value, "showItem", "hideItem");
+            } else {
+                // deal with the indeterminate state if needed
+            }
+        }
+            
+        // add or remove classes to show or hide our content
+        function hideOrShowItems(itemType, classToRemove, classToAdd) {
+            for (var i = 0; i < itemsToFilter.length; i++) {
+                var currentItem = itemsToFilter[i];
+                    
+                if (currentItem.getAttribute("data-type") == itemType) {
+                    removeClass(currentItem, classToRemove);
+                    addClass(currentItem, classToAdd);
+                }
+            }
+        }
+            
+        //
+        // Helper functions for adding and removing class values
+        //
+        function addClass(element, classToAdd) {
+            var currentClassValue = element.className;
+                
+            if (currentClassValue.indexOf(classToAdd) == -1) {
+                if ((currentClassValue == null) || (currentClassValue === "")) {
+                    element.className = classToAdd;
+                } else {
+                    element.className += " " + classToAdd;
+                }
+            }
+        }
+                
+        function removeClass(element, classToRemove) {
+            var currentClassValue = element.className;
+            
+            if (currentClassValue == classToRemove) {
+                element.className = "";
+                return;
+            }
+            
+            var classValues = currentClassValue.split(" ");
+            var filteredList = [];
+            
+            for (var i = 0 ; i < classValues.length; i++) {
+                if (classToRemove != classValues[i]) {
+                    filteredList.push(classValues[i]);
+                }
+            }
+            
+            element.className = filteredList.join(" ");
+        }
+    </script>
+</html>
