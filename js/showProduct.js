@@ -8,8 +8,8 @@
       Image: "img/puma/Classics-Men's-Logo-Tee.jpg",
       Brand: "Puma",
       Product__year: "2019",
-      product__material: "TPU"
-
+      Product__material: "TPU",
+      Product__category: "Shoes",
     },
     {
       Id:"2",
@@ -18,8 +18,8 @@
       Image: "img/puma/Porsche-Design-Crossbody-Bag.jpg",
       Brand: "Puma",
       Product__year: "2019",
-      product__material: "TPU"
-
+      Product__material: "TPU",
+      Product__category: "Shoes",
     },
     {
     Id:"3",
@@ -28,8 +28,8 @@
         Image: "img/puma/sportswear-t-shirt-Jn5HzC.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        Product__material: "TPU",
+        Product__category: "Shoes",
     },
     {
         Id:"4",
@@ -38,8 +38,8 @@
         Image: "img/puma/PUMA-x-CLOUD9-Beanie.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        Product__material: "TPU",
+        Product__category: "Pants",
     },
     {
         Id:"5",
@@ -48,8 +48,8 @@
         Image: "img/puma/p1.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        product__material: "TPU",
+        Product__category: "Pants",
     },
     {
         Id:"6",
@@ -58,8 +58,8 @@
         Image: "img/puma/p2.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        Product__material: "TPU",
+        Product__category: "Pants",
     },
     {
         Id:"7",
@@ -68,8 +68,8 @@
         Image: "img/puma/p3.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        Product__material: "TPU",
+        Product__category: "Shirt",
     },
     {
         Id:"8",
@@ -78,8 +78,8 @@
         Image: "img/puma/p5.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
-
+        Product__material: "TPU",
+        Product__category: "Shirt",
     },
     {
         Id:"9",
@@ -88,19 +88,19 @@
         Image: "img/puma/p6.jpg",
         Brand: "Puma",
         Product__year: "2019",
-        product__material: "TPU"
+        Product__material: "TPU",
+        Product__category: "Shirt",
     },
   ];
   var showProducts=listProduct.map(function (o) {
-      return `
-      
-      <div class="product">
-			<div class="product__info">
+    return `
+    <div class="product ${o.Product__category}">
+			<div class="product__info" ">
 				<img class="product__image" src="${o.Image}" alt="Product ${o.Id}" />
 				<h3 class="product__title">${o.Name}</h3>
 				<span class="product__brand extra highlight">${o.Brand}</span>
         <span class="product__year extra highlight">${o.Product__year}</span>
-        <span class="product__material extra highlight">${o.product__material}</span>
+        <span class="product__material extra highlight">${o.Product__material}</span>
         <span class="product__price highlight">$${o.Price}</span>
 				<button class="action action--button action--buy">
 					<i class="fa fa-shopping-cart"></i>

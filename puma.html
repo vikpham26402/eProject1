@@ -28,7 +28,9 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <!-- Footer -->
         <link rel="stylesheet" href="css/Footer.css">
-        <link rel="stylesheet" href="css/component.css">        
+        <link rel="stylesheet" href="css/component.css">   
+        <link rel="stylesheet" href="css/Filter.css">   
+        <link rel="stylesheet" href="css/otherbrand.css">  
     </head>
     <body>
             <!-- Main -->
@@ -39,15 +41,27 @@
             </div>
             <!-- Main view -->
             <div class="view">
-                <header class="header">
-                    <div class="filterItems" style="height: 5em;">
-                        
-                    </div>
+                <header>
+                    <ul class="filteritems">
+                        <li data-brand="All" type="button" class="list active">All</li>
+                        <li data-brand="Shoes" type="button" class="list">Shoes</li>
+                        <li data-brand="Pants" type="button" class="list">Pants</li>
+                        <li data-brand="Shirt" type="button" class="list">Shirt</li>
+                    </ul>
                 </header>
+                <hr>
+                <nav class="otherbrand">
+                    <ul>
+                        <li><a href="#"><img src="img/adidas_logo.png"><span>ADIDAS</span></a></li>
+                        <li><a href="#"><img src="img/puma_logo.png"><span>PUMA</span></a></li>
+                        <li><a href="#"><img src="img/nike_logo.png"><span>NIKE</span></a></li>
+                    </ul>                
+                </nav>
                 <!-- Product grid -->
                 <section class="grid">
                 </section>
-            </div><!-- /view -->
+            </div>
+            <!-- /view -->
             <!-- product compare wrapper -->
             <section class="compare">
                 <button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
@@ -99,7 +113,7 @@
         </div>
     </body>
     <script src="js/modernizr.custom.js"></script>
-    
+    <script src="js/filter.js"></script>
     <script type="text/javascript" src="js/showProduct.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </html>

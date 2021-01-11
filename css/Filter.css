@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    justify-content:center;
+    
+}
+header ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 4em ;
+    color: white;
+}
+
+header ul li.active{
+    color: rgb(83, 224, 26);
+}
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    border-style:inset;
+    border-width:1px ;
+}
