@@ -13,7 +13,7 @@ body{
 }
 
 /* product grid */
-.gridADIDAS {
+.gridPUMA {
 	margin: 0 auto;
 	padding: 4em;
 	max-width: 1200px;
@@ -28,7 +28,7 @@ body{
 }
 
 /* if flexbox is supported, let's use it to lay out the products */
-.flexbox .gridADIDAS {
+.flexbox .gridPUMA {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
@@ -79,7 +79,7 @@ body{
 }
 
 /* since we'll be using the product info inside of the comparison, we'll hide the extra info for the grid view */
-.gridADIDAS .extra {
+.gridPUMA .extra {
 	display: none;
 }
 
@@ -89,6 +89,7 @@ body{
 	max-width: 100%;
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
+	width: 160px;
 }
 
 .product:hover .product__image {
@@ -537,7 +538,7 @@ body{
 }
 
 @media screen and (max-width: 59.688em) {
-	.gridADIDAS {
+	.gridPUMA {
 		padding: 2em 0.5em;
 		font-size: 65%;
 	}
