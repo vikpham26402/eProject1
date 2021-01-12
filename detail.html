@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="logo.ico">
+        <!-- Jquery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- bootstrap  -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- popper -->
+        <script src="js/popper.min.js"></script>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate.min.css">
+        <!-- index -->
+        <link rel="stylesheet" href="css/index.css">
+        <!-- Pre-load -->
+        <link rel="stylesheet" href="css/Preload.css">
+        <!-- Header -->
+        <link rel="stylesheet" href="css/Header.css">
+        <!-- Navigation -->
+        <link rel="stylesheet" href="css/Nav.css">
+        <!-- Footer -->
+        <link rel="stylesheet" href="css/Footer.css">
+        <link rel="stylesheet" href="css/HomePage.css">
+        <script src="js/Page.js"></script>
+        <script>
+            $(window).on('load', function(event) {
+            $('body').removeClass('preloading');
+            $('.load').delay(1000).fadeOut('2000');
+            });
+        </script>
+        <!-- Product detail -->
+        <link rel="stylesheet" href="Productpage/productdetail.css">
+        <link rel="stylesheet" href="Productpage/mdb.ecommerce.min.css">
+        <script type="text/javascript" src="Productpage/mdb.ecommerce.min.js"></script> <!-- zoom -->
+    </head>
+<body class="preloading skin-light" aria-busy="true">
+        <div class="load">
+            <img src="img/Logo/load2.gif">
+        </div>
+<div class="container-fluid px-0">
+    <header>
+                <!-- Navbar -->
+                <nav class=" navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
+                    <a class="navbar-brand" href="HomePage.html"><img width="100px" src="img/Logo/2.png"></a> 
+                    <button class="navbar-toggler custom-toggler" type="button"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row mobileMenu" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto align-self-stretch">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="puma.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/puma_logo.png">
+                                        PUMA
+                                    </a>
+                                </li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="adidas.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/adidas_logo.png">
+                                        ADIDAS
+                                    </a>
+                                </li>   
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="nike.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/nike_logo.png">
+                                        NIKE
+                                    </a>
+                                </li>                       
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                  <a href="#!" class="nav-link navbar-link-2 waves-effect">
+                                    <span class="badge badge-pill red">0</span>
+                                    <i class="fas fa-shopping-cart pl-0"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
+                </nav>
+                <!-- ./ end of navbar -->
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            
+                        </div>
+                    </div>
+                </div>
+    </header>
+            <!-- Main -->
+    <!--Main layout-->
+  <main style="padding-top: 100px;">
+    <div class="container">
+<!--Section: Block Content-->
+<section class="mb-5">
+
+    <div class="row">
+      <div class="col-md-6 mb-4 mb-md-0">
+  
+        <div id="mdb-lightbox-ui"></div>
+  
+        <div class="mdb-lightbox">
+  
+          <div class="row product-gallery mx-1">
+  
+            <div class="col-12 mb-0">
+              <figure class="view overlay rounded z-depth-1 main-img">
+                <a>
+                  <img src="Productpage/Product/01.jpg" class="img-fluid z-depth-1">
+                </a>
+              </figure>
+              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                <a>
+                  <img src="Productpage/Product/02.jpg" class="img-fluid z-depth-1">
+                </a>
+              </figure>
+              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                <a>
+                  <img src="Productpage/Product/03.jpg" class="img-fluid z-depth-1">
+                </a>
+              </figure>
+              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                <a>
+                  <img src="Productpage/Product/04.jpg" class="img-fluid z-depth-1">
+                </a>
+              </figure>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-3">
+                  <div class="view overlay rounded z-depth-1 gallery-item">
+                    <img src="Productpage/Product/01.jpg" class="img-fluid">
+                    <div class="mask rgba-white-slight"></div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="view overlay rounded z-depth-1 gallery-item">
+                    <img src="Productpage/Product/02.jpg" class="img-fluid">
+                    <div class="mask rgba-white-slight"></div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="view overlay rounded z-depth-1 gallery-item">
+                    <img src="Productpage/Product/03.jpg" class="img-fluid">
+                    <div class="mask rgba-white-slight"></div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="view overlay rounded z-depth-1 gallery-item">
+                    <img src="Productpage/Product/04.jpg" class="img-fluid">
+                    <div class="mask rgba-white-slight"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+      <div class="col-md-6" style="color: white;">
+  
+        <h5>Nike air Presto</h5>
+        <p class="mb-2 text-muted text-uppercase small">Shoes</p>
+        <ul class="rating">
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="far fa-star fa-sm text-primary"></i>
+          </li>
+        </ul>
+        <p><span class="mr-1"><strong>$512.99</strong></span></p>
+        <p class="pt-1">Cold-weather comfort is redefined with the Air Presto Mid Utility for women. Leading the latest collection of SneakerBoots, the silhouette comes to life with a soft, stretchy construction which provides a T-shirt-like fit that's built to withstand the elements. The upper has a water-resistant finish, while a warm lining fills the inside and a ground-gripping outsole is utilised below.</p>
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless mb-0" style="color: white;">
+            <tbody>
+              <tr>
+                <th class="pl-0 w-25" scope="row"><strong>Brand</strong></th>
+                <td>Nike</td>
+              </tr>
+              <tr>
+                <th class="pl-0 w-25" scope="row"><strong>Color</strong></th>
+                <td>Black</td>
+              </tr>
+              <tr>
+                <th class="pl-0 w-25" scope="row"><strong>Delivery</strong></th>
+                <td>VietNam</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <hr>
+        <div class="table-responsive mb-2">
+          <table class="table table-sm table-borderless">
+            <tbody style="color: white;">
+              <tr>
+                <td class="pl-0 pb-0 w-25">Quantity</td>
+                <td class="pb-0">Select size</td>
+              </tr>
+              <tr>
+                <td class="pl-0">
+                  <div class="def-number-input number-input safari_only mb-0">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                      class="minus"></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                      class="plus"></button>
+                  </div>
+                </td>
+                <td>
+                  <div class="mt-1">
+                    <div class="form-check form-check-inline pl-0">
+                      <input type="radio" class="form-check-input" id="small" name="materialExampleRadios"
+                        checked>
+                      <label class="form-check-label small text-uppercase card-link-secondary"
+                        for="small">Small</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                      <input type="radio" class="form-check-input" id="medium" name="materialExampleRadios">
+                      <label class="form-check-label small text-uppercase card-link-secondary"
+                        for="medium">Medium</label>
+                    </div>
+                    <div class="form-check form-check-inline pl-0">
+                      <input type="radio" class="form-check-input" id="large" name="materialExampleRadios">
+                      <label class="form-check-label small text-uppercase card-link-secondary"
+                        for="large">Large</label>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button type="button" class="btn btn-primary btn-md mr-1 mb-2" style="background-color: #632a7e;">Buy now</button>
+        <button type="button" class="btn btn-light btn-md mr-1 mb-2" style="background-color: #632a7e;"><i class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+      </div>
+    </div>
+  
+  </section>
+  <!--Section: Block Content-->
+
+      <!-- Classic tabs -->
+<div class="classic-tabs border rounded px-4 pt-1">
+
+    <ul class="nav tabs-primary nav-justified" id="advancedTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active show" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews (1)</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="advancedTabContent">
+      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+        <h5>Product Description</h5>
+        <p class="small text-muted text-uppercase mb-2">Shoes</p>
+        <ul class="rating">
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="fas fa-star fa-sm text-primary"></i>
+          </li>
+          <li>
+            <i class="far fa-star fa-sm text-primary"></i>
+          </li>
+        </ul>
+        <h6>512.99 $</h6>
+        <p class="pt-1">Cold-weather comfort is redefined with the Air Presto Mid Utility for women. Leading the latest collection of SneakerBoots, the silhouette comes to life with a soft, stretchy construction which provides a T-shirt-like fit that's built to withstand the elements. The upper has a water-resistant finish, while a warm lining fills the inside and a ground-gripping outsole is utilised below.</p>
+      </div>
+      <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+        <h5>Additional Information</h5>
+        <table class="table table-striped table-bordered mt-3" style="color: white;">
+          <thead>
+            <tr>
+              <th scope="row" class="w-150 dark-grey-text h6">Weight</th>
+              <td><em>0.2 kg</em></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="w-150 dark-grey-text h6">Dimensions</th>
+              <td><em>20 × 5 cm</em></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+        <h5><span>1</span> review for <span>Nike air Presto</span></h5>
+        <div class="media mt-3 mb-4">
+          <img class="d-flex mr-3 z-depth-1" src="Productpage/avatar.jpg" width="62" alt="Generic placeholder image">
+          <div class="media-body">
+            <div class="d-sm-flex justify-content-between">
+              <p class="mt-1 mb-2">
+                <strong>TaiPham </strong>
+                <span>– </span><span>January 12, 2020</span>
+              </p>
+              <ul class="rating mb-sm-0">
+                <li>
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-primary"></i>
+                </li>
+                <li>
+                  <i class="far fa-star fa-sm text-primary"></i>
+                </li>
+              </ul>
+            </div>
+            <p class="mb-0">Nice one, love it!</p>
+          </div>
+        </div>
+        <hr>
+        <h5 class="mt-4">Add a review</h5>
+        <p>Your email address will not be published.</p>
+        <div class="my-3">
+          <ul class="rating mb-0">
+            <li>
+              <a href="#!">
+                <i class="fas fa-star fa-sm text-primary"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="fas fa-star fa-sm text-primary"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="fas fa-star fa-sm text-primary"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="fas fa-star fa-sm text-primary"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="far fa-star fa-sm text-primary"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <!-- Your review -->
+          <div class="md-form md-outline">
+            <textarea id="form76" class="md-textarea form-control pr-6" rows="4"></textarea>
+            <label for="form76">Your review</label>
+          </div>
+          <!-- Name -->
+          <div class="md-form md-outline">
+            <input type="text" id="form75" class="form-control pr-6">
+            <label for="form75">Name</label>
+          </div>
+          <!-- Email -->
+          <div class="md-form md-outline">
+            <input type="email" id="form77" class="form-control pr-6">
+            <label for="form77">Email</label>
+          </div>
+          <div class="text-right pb-2">
+            <button type="button" class="btn btn-primary">Add a review</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <!-- Classic tabs -->
+      <!-- Classic tabs -->
+
+      <hr>
+
+      <!--Section: Block Content-->
+      <section class="text-center" style="color: white;">
+
+        <h4 class="text-center my-5"><strong>Related products</strong></h4>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-3 mb-5">
+
+            <!-- Card -->
+            <div class="">
+
+              <div class="view zoom overlay z-depth-2 rounded">
+                <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-PANTS-1.jpg" alt="Sample">
+                <a href="detail.html">
+                  <div class="mask waves-effect waves-light">
+                    <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-PANTS-1.jpg">
+                    <div class="mask rgba-black-slight waves-effect waves-light"></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="pt-4">
+
+                <h5>PUMA PANTS</h5>
+                <p><span><strong>$17.99</strong></span></p>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-3 mb-5">
+
+            <!-- Card -->
+            <div class="">
+
+              <div class="view zoom overlay z-depth-2 rounded">
+                <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-PANTS-3.jpg" alt="Sample">
+                <a href="https://mdbootstrap.com/previews/ecommerce-demo/examples/pages/basic/product.html#!">
+                  <div class="mask waves-effect waves-light">
+                    <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-PANTS-3.jpg">
+                    <div class="mask rgba-black-slight waves-effect waves-light"></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="pt-4">
+
+                <h5>PUMA PANTS</h5>
+                <p><span><strong>$35.99</strong></span></p>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-3 mb-5">
+
+            <!-- Card -->
+            <div class="">
+
+              <div class="view zoom overlay z-depth-2 rounded">
+                <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-SHIRT-1.jpg" alt="Sample">
+                <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
+                <a href="detail.html">
+                  <div class="mask waves-effect waves-light">
+                    <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-SHIRT-1.jpg">
+                    <div class="mask rgba-black-slight waves-effect waves-light"></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="pt-4">
+
+                <h5>PUMA SHIRT</h5>
+                <p><span class="text-danger mr-1"><strong>$21.99</strong></span><span class="text-grey"><strong><s>$36.99</s></strong></span></p>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-3 mb-5">
+
+            <!-- Card -->
+            <div class="">
+
+              <div class="view zoom overlay z-depth-2 rounded">
+                <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-SHOES-1.jpg" alt="Sample">
+                <a href="detail.html">
+                  <div class="mask waves-effect waves-light">
+                    <img class="img-fluid w-100" src="Productpage/ListItem/PUMA-SHOES-1.jpg">
+                    <div class="mask rgba-black-slight waves-effect waves-light"></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="pt-4">
+
+                <h5>PUMA SHOES</h5>
+                <p><strong>$99.99</strong></p>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!--Section: Block Content-->
+
+    </div>
+  </main>
+ <!--End Main -->
+            <!-- Footer -->
+            <div>
+                
+            </div>
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<!-- Type something here -->
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Adress</h5>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9249735021463!2d108.22038801451369!3d16.069382643702976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d5d51043%3A0x596a384ad09764ee!2zVMOyYSBOaMOgIFZOUFQgxJDDoCBO4bq1bmcsIDM4IFnDqm4gQsOhaSwgSOG6o2kgQ2jDonUgMSwgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1608641743842!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+</div>
+        <script src="" async defer></script>
+</body>
+</html>
