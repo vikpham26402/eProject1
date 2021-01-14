@@ -32,3 +32,11 @@ hr{
     border-style:inset;
     border-width:1px ;
 }
+.logoP {
+    display: flex;
+    
+    justify-content: center;
+}
+.logoP img{
+    width: 160px;
+}

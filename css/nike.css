@@ -1,6 +1,6 @@
 
 body{
-	background-color: #333958;
+	background-color: #280e3b;
 }
 .view {
 	-webkit-transition: -webkit-transform 0.4s ease-in-out;
@@ -89,7 +89,7 @@ body{
 	max-width: 100%;
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
-	
+	width: 160px;
 }
 
 .product:hover .product__image {

@@ -1,0 +1,356 @@
+  
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="logo.ico">
+        <!-- Jquery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- bootstrap  -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- popper -->
+        <script src="js/popper.min.js"></script>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate.min.css">
+        <!-- index -->
+        <link rel="stylesheet" href="css/index.css">
+        <!-- Pre-load -->
+        <link rel="stylesheet" href="css/Preload.css">
+        <!-- Header -->
+        <link rel="stylesheet" href="css/Header.css">
+        <!-- Navigation -->
+        <link rel="stylesheet" href="css/Nav.css">
+        <!-- Footer -->
+        <link rel="stylesheet" href="css/Footer.css">
+        <link rel="stylesheet" href="css/HomePage.css">
+        <script src="js/Page.js"></script>
+        <!-- Product detail -->
+        <link rel="stylesheet" href="Productpage/productdetail.css">
+       
+    </head>
+<body class="preloading skin-light" aria-busy="true">
+<div class="container-fluid px-0">
+    <header>
+                <!-- Navbar -->
+                <nav class=" navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark navbar-transparent"> 
+                    <a class="navbar-brand" href="HomePage.html"><img width="100px" src="img/Logo/2.png"></a> 
+                    <button class="navbar-toggler custom-toggler" type="button"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row mobileMenu" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto align-self-stretch">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="puma.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/puma_logo.png">
+                                        PUMA
+                                    </a>
+                                </li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="adidas.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/adidas_logo.png">
+                                        ADIDAS
+                                    </a>
+                                </li>   
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="nike.html" target="_blank" id="navbarDropdown" role="button">
+                                        <img src="img/Logo/nike_logo.png">
+                                        NIKE
+                                    </a>
+                                </li>                       
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                  <a href="#!" class="nav-link navbar-link-2 waves-effect">
+                                    <span class="badge badge-pill red">0</span>
+                                    <i class="fas fa-shopping-cart pl-0"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
+                </nav>
+                <!-- ./ end of navbar -->
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            
+                        </div>
+                    </div>
+                </div>
+    </header>
+<!-- Main -->
+<div class="container">
+<section class="mb-5" style="padding-top: 100px;">
+    <!--Grid row-->
+    <div class="row">
+  
+      <!--Grid column-->
+      <div class="col-lg-8">
+  
+        <!-- Card -->
+        <div class="mb-3">
+          <div class="pt-4 wish-list" style="color: white;">
+  
+            <h5 class="mb-4">Cart (<span>2</span> items)</h5>
+  
+            <div class="row mb-4">
+              <div class="col-md-5 col-lg-3 col-xl-3">
+                <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                  <img class="img-fluid w-100" src="img/PUMAProducts/PUMA-PANTS-3.jpg" alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100" src="img/PUMAProducts/PUMA-PANTS-3.jpg">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-7 col-lg-9 col-xl-9" style="color: white;">
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h5>PUMA PANT</h5>
+                      <p class="mb-3 text-muted text-uppercase small">PUMA PANT</p>
+                      <p class="mb-2 text-muted text-uppercase small">Color: black-white</p>
+                      <p class="mb-3 text-muted text-uppercase small">Size: M</p>
+                    </div>
+                    <div>
+                      <div class="def-number-input number-input safari_only mb-0 w-100 d-flex align-items-center">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus decrease fa-border-none"></button>
+                        <input class="quantity" min="0" name="quantity" value="1" type="number">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus increase"></button>
+                      </div>
+                      <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                        (Note, 1 piece)
+                      </small>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <a href="#!" type="button" class="card-link-secondary small text-uppercase mr-3"><i
+                          class="fas fa-trash-alt mr-1"></i> Remove item </a>
+                      <a href="#!" type="button" class="card-link-secondary small text-uppercase"><i
+                          class="fas fa-heart mr-1"></i> Move to wish list </a>
+                    </div>
+                    <p class="mb-0"><span><strong id="summary">$1</strong></span></p class="mb-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row mb-4">
+              <div class="col-md-5 col-lg-3 col-xl-3">
+                <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                  <img class="img-fluid w-100" src="img/PUMAProducts/PUMA-SHOES-2.jpg" alt="Sample">
+                  <a href="#!">
+                    <div class="mask">
+                      <img class="img-fluid w-100" src="img/PUMAProducts/PUMA-SHOES-2.jpg">
+                      <div class="mask rgba-black-slight "></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-7 col-lg-9 col-xl-9">
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <div>
+
+                      <h5>PUMA SHOES</h5>
+                      <p class="mb-3 text-muted text-uppercase small">Shoes</p>
+                      <p class="mb-2 text-muted text-uppercase small">Color: white</p>
+                      <p class="mb-3 text-muted text-uppercase small">Size: M</p>
+                    </div>
+                    <div>
+                      <div class="def-number-input number-input safari_only mb-0 w-100 d-flex align-items-center">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                        <input class="quantity" min="0" name="quantity" value="1" type="number">
+                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <a href="#!" type="button" class="card-link-secondary small text-uppercase mr-3"><i
+                          class="fas fa-trash-alt mr-1"></i> Remove item </a>
+                      <a href="#!" type="button" class="card-link-secondary small text-uppercase"><i
+                          class="fas fa-heart mr-1"></i> Move to wish list </a>
+                    </div>
+                    <p class="mb-0"><span><strong>$1</strong></span></p class="mb-0">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="text-primary mb-0"><i class="fas fa-info-circle mr-1"></i> Do not delay the purchase, adding
+              items to your cart does not mean booking them.</p>
+  
+          </div>
+        </div>
+        <!-- Card -->
+  
+        <!-- Card -->
+        <div class="mb-3" style="color: white;">
+          <div class="pt-4">
+  
+            <h5 class="mb-4">Expected shipping delivery</h5>
+  
+            <p class="mb-0"> Thu., 12.03. - Mon., 16.03.</p>
+          </div>
+        </div>
+        <!-- Card -->
+  
+        <!-- Card -->
+        <div class="mb-3">
+          <div class="pt-4" style="color: white;">
+  
+            <h5 class="mb-4">We accept</h5>
+  
+            <img class="mr-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+              alt="Visa">
+            <img class="mr-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+              alt="American Express">
+            <img class="mr-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+              alt="Mastercard">
+            <img class="mr-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+              alt="PayPal acceptance mark">
+          </div>
+        </div>
+        <!-- Card -->
+  
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-lg-4">
+  
+        <!-- Card -->
+        <div class="mb-3">
+          <div class="pt-4">
+  
+            <h5 class="mb-3" style="color: white;">The total amount of</h5>
+  
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0" style="background-color: #280e3b;color: white;">
+                Temporary amount
+                <span>$1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center px-0" style="background-color: #280e3b;color: white;">
+                Shipping
+                <span>Free</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3" style="background-color: #280e3b;color: white;">
+                <div>
+                  <strong>The total amount of</strong>
+                  <strong>
+                    <p class="mb-0">(including VAT)</p>
+                  </strong>
+                </div>
+                <span><strong>$1</strong></span>
+              </li>
+            </ul>
+  
+            <button type="button" class="btn btn-primary btn-block">go to checkout</button>
+  
+          </div>
+        </div>
+        <!-- Card -->
+  
+        <!-- Card -->
+        <div class="mb-3">
+          <div class="pt-4">
+  
+            <a class="dark-grey-text d-flex justify-content-between" data-toggle="collapse" href="#collapseExample"
+              aria-expanded="false" aria-controls="collapseExample">
+              Add a discount code (optional)
+              <span><i class="fas fa-chevron-down pt-1"></i></span>
+            </a>
+  
+            <div class="collapse" id="collapseExample">
+              <div class="mt-3">
+                <div class="md-form md-outline mb-0">
+                  <input type="text" id="discount-code" class="form-control font-weight-light"
+                    placeholder="Enter discount code">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+  
+      </div>
+      <!--Grid column-->
+  
+    </div>
+    <!-- Grid row -->
+  
+</section>
+</div>
+ <!--End Main -->
+            <!-- Footer -->
+            <div>
+                
+            </div>
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fas fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<!-- Type something here -->
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Adress</h5>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9249735021463!2d108.22038801451369!3d16.069382643702976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421833d5d51043%3A0x596a384ad09764ee!2zVMOyYSBOaMOgIFZOUFQgxJDDoCBO4bq1bmcsIDM4IFnDqm4gQsOhaSwgSOG6o2kgQ2jDonUgMSwgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1608641743842!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fab fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+</div>
+<script type="text/javascript" src="js/cartpage.js"></script>
+<script src="js/showProduct.js"></script>
+</body>
+</html>

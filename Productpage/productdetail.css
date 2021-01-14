@@ -8,7 +8,7 @@
   }
   
 body{font-family:Roboto,sans-serif;
-    font-weight:300
+    font-weight:300;
     margin:0;
     font-size:1rem;
     font-weight:400;
@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{font-weight:300}
 .skin-light .product-gallery .gallery-item{-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}
 .skin-light .product-gallery .gallery-item:hover{cursor:pointer !important}
 .skin-light .product-gallery .main-img{overflow:hidden}
-.skin-light .number-input.number-input button.minus{padding-left:10px}
+/* .skin-light .number-input.number-input button.minus{padding-left:10px} */
 .skin-light .number-input input[type=number]::-webkit-inner-spin-button,.skin-light .number-input input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none}
 .skin-light .number-input input[type=number]{text-align:center}
 .skin-light .number-input.number-input input[type=number]{max-width:4rem;padding:.5rem;border-width:0 1px;border:none;font-size:1rem;height:2rem;}
@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{font-weight:300}
 .skin-light .number-input button:before,.skin-light .number-input button:after{display:inline-block;position:absolute;content:'';height:2px;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}
 .skin-light .number-input button.plus:after{-webkit-transform:translate(-50%, -50%) rotate(90deg);transform:translate(-50%, -50%) rotate(90deg)}.skin-light .number-input input[type=number]{text-align:center}
 .skin-light .number-input.number-input{border:1px solid white;width:8.6rem;border-radius:.25rem}
-.skin-light .number-input.number-input button{width:2.5rem;height:.7rem}
+.skin-light .number-input.number-input button{width:2.5rem;height:.7rem;outline: none;}
 .skin-light .number-input.number-input button:before,.skin-light .number-input.number-input button:after{width:.7rem;background-color:white} /*= -*/
 .skin-light .number-input.number-input input[type=number]{max-width:3rem;padding:.5rem;border:1px solid white;border-width:0 1px;font-size:1rem;height:2rem;}
 /*left bar*/
